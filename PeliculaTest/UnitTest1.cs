@@ -64,8 +64,8 @@ namespace PeliculaTest
                 
                 p1.ImprimeActores();
 
-                var result = s.ToString().Trim();
-                Assert.Equal("Ryan Gosling (1980)\r\nEmma Stone (1988)", result);
+                var result = s.ToString().Trim().Replace("\r","");
+                Assert.Equal("Ryan Gosling (1980)\nEmma Stone (1988)", result );
             }
         }
     }

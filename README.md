@@ -1,4 +1,4 @@
-## Programa básico de Películas 
+## Proyecto IMDB
 
 De acuerdo a los ejemplos vistos en clase, implementa en c# la clase *Pelicula*  con los siguientes campos **publicos**:
 

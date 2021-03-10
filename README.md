@@ -13,8 +13,8 @@ De acuerdo a los ejemplos vistos en clase, implementa en c# la clase *Pelicula* 
 
 
 1. Como primer paso crea solo la clase con los campos públicos e inicializalos en **Program.Main()** directamente.
-2. Crea dos objetos tipo Pelicula con dos peliculas ganadoras de un Oscar. 
-3. Imprime en la consola el titulo y año de las peliculas. 
+2. Crea dos objetos película que representen a dos peliculas ganadoras de un Oscar. 
+3. Imprime en la consola el título y año de las películas. 
 Sube la primera versión a GitHub. Este código todavía no pasará ningúna prueba.
 4. Ahora cambia los campos a **private**. Agrega los métodos necesarios para crear los objetos de la siguiente manera:
 
@@ -31,8 +31,8 @@ static void Main(){
 }
 } 
 ```
-Haz push de esta versión a GitHub. 
-Se probará que funcionen los métodos de Set y Get.
+Haz "push" de esta versión a GitHub. 
+Se probará que funcionen los métodos de Set* y Get*.
 
 5. Agrega dos constructores: *Pelicula()* y *Pelicula(string titulo, Int16 año )* y el método Imprime(). No modifiques el código de *Console.Writline()* incluido.
 
@@ -40,8 +40,8 @@ Actualiza la versión a GitHub.
 
 ## Lista de Películas 
 
-Utilizando la bibliteca *System.Collections.Generic* crea una lista de 5 peliculas. Utilizando la lista genérica **List<Pelicula>**.
-1. Crea la lista en *Main()* y agrega directamente las peliculas a la lista, por ejemplo para la clase **Persona** sería de esta manera (fragmento):
+Utilizando la bibliteca *System.Collections.Generic* crea una lista de 5 películas. Utilizando la lista genérica **List<Pelicula>**.
+1. Crea la lista en *Main()* y agrega directamente las películas a la lista, por ejemplo para la clase **Persona** sería de esta manera (fragmento):
 
 ```csharp
 List<Persona> personas = new List<Persona>();
@@ -51,7 +51,7 @@ persona.Add(new Persona ("tom"));
 persona.Add(new Persona ("jim"));
 
 ```
-2. Utiliza un ciclo **foreach** para iterar por la lista e imprimir las peliculas. Este código es opcional, no se va a probar.
+2. Utiliza un ciclo **foreach** para iterar por la lista e imprimir las películas. Este código es opcional, no se va a probar.
 
 ## Actores 
 Agrega a tu clase **Pelicula** un campo privado **actores** de tipo **List<Actor>**. 
